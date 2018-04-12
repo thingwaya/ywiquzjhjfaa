@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>雪人VIP视频免费观看插件，爱奇艺vip免费，优酷vip免费，乐视vip免费，芒果vip免费，腾讯视频vip免费</title>
+    <meta name="description" content="雪人VIP视频免费观看插件，让你更清爽看视频"/>
+    <style>
+        html {
+            -webkit-text-size-adjust: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        body, div, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ul, ol, li, form, th, td, table, section {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            color: #666;
+            font: 12px/18px "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif, "\5B8B\4F53";
+            background: #292929;
+            min-width: 1000px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+            outline: 0
+        }
+
+        a:hover {
+            color: #518900;
+            text-decoration: underline
+        }
+
+        .xpTopNav {
+            width: 100%;
+            height: 45px;
+            background: #292929;
+            top: 0;
+            position: fixed;
+            z-index: 4200;
+        }
+
+        .xpTopNavLogo {
+            width: 100%;
+            height: 45px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+            font-family: "\5FAE\8F6F\96C5\9ED1", "\5B8B\4F53", Arial, Helvetica, sans-serif
+        }
+
+        .xpTopNavLogo .xpTopNavLogoL {
+            width: 980px;
+            height: 45px;
+            margin: 0 auto;
+        }
+
+        .reShowPlayer {
+            background-color: #1f1f1f;
+            width: 980px;
+            height: 560px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="xpTopNav">
+    <div class="xpTopNavLogo xpNavOt">
+        <div class="xpTopNavLogoL clearfix">
+            <a class="logo" href="javascript:void(0);"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAqCAYAAADS4VmSAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RkYwNTFDQ0YzRTUzMTFFODgwM0JFODMwMjMwMDJEMDAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RkYwNTFDRDAzRTUzMTFFODgwM0JFODMwMjMwMDJEMDAiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGRjA1MUNDRDNFNTMxMUU4ODAzQkU4MzAyMzAwMkQwMCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGRjA1MUNDRTNFNTMxMUU4ODAzQkU4MzAyMzAwMkQwMCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PjNe/Y0AAApjSURBVHjarFh7cFN1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"></a>
+        </div>
+    </div>
+</div>
+
+<div class="reShowPlayer clearfix" id="showDiv">
+
+</div>
+
+</body>
+</html>
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+    function GetQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]);
+        return null;
+    }
+
+    $(function () {
+        var url = "http://jiexi.yanjiaozhaopinwang.com/dy.php?url=" + GetQueryString("url");
+        var iframeDiv = "<iframe width=\"100%\" height=\"100%\" src=\"" + url + "\" frameborder=\"0\" border=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" id='iframeT'></iframe>";
+        $("#showDiv").html(iframeDiv);
+    });
+
+</script>
